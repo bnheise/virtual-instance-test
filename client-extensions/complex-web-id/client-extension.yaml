@@ -1,0 +1,19 @@
+assemble:
+  - from: build/buildTheme/img
+    into: static/img
+liferay-sample-theme-css:
+  clayURL: css/clay.css
+  mainURL: css/main.css
+  name: Liferay Sample Theme CSS
+  type: themeCSS
+  dxp.lxc.liferay.com.virtualInstanceId: test.com
+
+liferay-sample-etc-cron:
+  .serviceAddress: localhost:8080
+  .serviceScheme: http
+  name: Liferay Sample Etc Cron
+  scopes:
+    - Liferay.Headless.Admin.User.everything.read
+    - Liferay.Headless.Delivery.everything
+  type: oAuthApplicationHeadlessServer
+  dxp.lxc.liferay.com.virtualInstanceId: test.com
