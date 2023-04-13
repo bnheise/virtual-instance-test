@@ -6,7 +6,7 @@ liferay-sample-theme-css:
   mainURL: css/main.css
   name: Liferay Sample Theme CSS
   type: themeCSS
-  dxp.lxc.liferay.com.virtualInstanceId: test.com
+  dxp.lxc.liferay.com.virtualInstanceId: test-test.test.test.com
 
 liferay-sample-etc-cron:
   .serviceAddress: localhost:8080
@@ -16,4 +16,4 @@ liferay-sample-etc-cron:
     - Liferay.Headless.Admin.User.everything.read
     - Liferay.Headless.Delivery.everything
   type: oAuthApplicationHeadlessServer
-  dxp.lxc.liferay.com.virtualInstanceId: test.com
+  dxp.lxc.liferay.com.virtualInstanceId: test-test.test.test.com
